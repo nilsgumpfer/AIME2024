@@ -37,31 +37,31 @@ Towards Trustworthy AI in Cardiology - Supplementary Material (AIME2024)
 
 ## Myocardial ischemia
 
-![ISCH_gradient](ISCH_gradient.png)
+![ISCH_gradient](./examples/ISCH/ISCH_gradient.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method Gradient (Zurada et al.) for predicted class _myocardial ischemia_ (prob. 69%).*
 
-![ISCH_gradient_x_input](ISCH_gradient_x_input.png)
+![ISCH_gradient_x_input](./examples/ISCH/ISCH_gradient_x_input.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method Gradient×Input (Shrikumar et al. 2017) for predicted class _myocardial ischemia_ (prob. 69%).*
 
-![ISCH_gradient_x_sign](ISCH_gradient_x_sign.png)
+![ISCH_gradient_x_sign](./examples/ISCH/ISCH_gradient_x_sign.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method Gradient×SIGN (Gumpfer et al. 2023) for predicted class _myocardial ischemia_ (prob. 69%).*
 
-![ISCH_lrp_alpha_1_beta_0](ISCH_lrp_alpha_1_beta_0.png)
+![ISCH_lrp_alpha_1_beta_0](./examples/ISCH/ISCH_lrp_alpha_1_beta_0.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method LRP-α₁β₀ (Bach et al. 2015) for predicted class _myocardial ischemia_ (prob. 69%).*
 
-![ISCH_lrp_epsilon_0_5_std_x](ISCH_lrp_epsilon_0_5_std_x.png)
+![ISCH_lrp_epsilon_0_5_std_x](./examples/ISCH/ISCH_lrp_epsilon_0_5_std_x.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method LRP-ε with ε = 0.5 ⋅ σ(x) (Bach et al. 2015) for predicted class _myocardial ischemia_ (prob. 69%).*
 
-![ISCH_lrpsign_epsilon_0_5_std_x](ISCH_lrpsign_epsilon_0_5_std_x.png)
+![ISCH_lrpsign_epsilon_0_5_std_x](./examples/ISCH/ISCH_lrpsign_epsilon_0_5_std_x.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method LRP-ε SIGN with ε = 0.5 ⋅ σ(x) and SIGN as input layer rule (Gumpfer et al. 2023) for predicted class _myocardial ischemia_ (prob. 69%).*
 
-![ISCH_deep_shap](ISCH_deep_shap.png)
+![ISCH_deep_shap](./examples/ISCH/ISCH_deep_shap.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method DeepSHAP (Lundberg et al.) for predicted class _myocardial ischemia_ (prob. 69%).*
 
-![ISCH_grad_shap](ISCH_grad_shap.png)
+![ISCH_grad_shap](./examples/ISCH/ISCH_grad_shap.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method GradSHAP (Lundberg et al.) for predicted class _myocardial ischemia_ (prob. 69%).*
 
-![ISCH_grad_cam_timeseries](ISCH_grad_cam_timeseries.png)
+![ISCH_grad_cam_timeseries](./examples/ISCH/ISCH_grad_cam_timeseries.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method Grad-CAM [Selvaraju2020] for predicted class _myocardial ischemia_ (prob. 69%).*
 
 
@@ -69,31 +69,31 @@ Towards Trustworthy AI in Cardiology - Supplementary Material (AIME2024)
 
 ## Right bundle branch block
 
-![RBBB_gradient](RBBB_gradient.png)
+![RBBB_gradient](./examples/RBBB/RBBB_gradient.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method Gradient (Zurada et al.) for predicted class _right bundle branch block_ (prob. 99%).*
 
-![RBBB_gradient_x_input](RBBB_gradient_x_input.png)
+![RBBB_gradient_x_input](./examples/RBBB/RBBB_gradient_x_input.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method Gradient×Input (Shrikumar et al. 2017) for predicted class _right bundle branch block_ (prob. 99%).*
 
-![RBBB_gradient_x_sign](RBBB_gradient_x_sign.png)
+![RBBB_gradient_x_sign](./examples/RBBB/RBBB_gradient_x_sign.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method Gradient×SIGN (Gumpfer et al. 2023) for predicted class _right bundle branch block_ (prob. 99%).*
 
-![RBBB_lrp_alpha_1_beta_0](RBBB_lrp_alpha_1_beta_0.png)
+![RBBB_lrp_alpha_1_beta_0](./examples/RBBB/RBBB_lrp_alpha_1_beta_0.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method LRP-α₁β₀ (Bach et al. 2015) for predicted class _right bundle branch block_ (prob. 99%).*
 
-![RBBB_lrp_epsilon_0_5_std_x](RBBB_lrp_epsilon_0_5_std_x.png)
+![RBBB_lrp_epsilon_0_5_std_x](./examples/RBBB/RBBB_lrp_epsilon_0_5_std_x.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method LRP-ε with ε = 0.5 ⋅ σ(x) (Bach et al. 2015) for predicted class _right bundle branch block_ (prob. 99%).*
 
-![RBBB_lrpsign_epsilon_0_5_std_x](RBBB_lrpsign_epsilon_0_5_std_x.png)
+![RBBB_lrpsign_epsilon_0_5_std_x](./examples/RBBB/RBBB_lrpsign_epsilon_0_5_std_x.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method LRP-ε SIGN with ε = 0.5 ⋅ σ(x) and SIGN as input layer rule (Gumpfer et al. 2023) for predicted class _right bundle branch block_ (prob. 99%).*
 
-![RBBB_deep_shap](RBBB_deep_shap.png)
+![RBBB_deep_shap](./examples/RBBB/RBBB_deep_shap.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method DeepSHAP (Lundberg et al.) for predicted class _right bundle branch block_ (prob. 99%).*
 
-![RBBB_grad_shap](RBBB_grad_shap.png)
+![RBBB_grad_shap](./examples/RBBB/RBBB_grad_shap.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method GradSHAP (Lundberg et al.) for predicted class _right bundle branch block_ (prob. 99%).*
 
-![RBBB_grad_cam_timeseries](RBBB_grad_cam_timeseries.png)
+![RBBB_grad_cam_timeseries](./examples/RBBB/RBBB_grad_cam_timeseries.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method Grad-CAM [Selvaraju2020] for predicted class _right bundle branch block_ (prob. 99%).*
 
 
@@ -101,29 +101,29 @@ Towards Trustworthy AI in Cardiology - Supplementary Material (AIME2024)
 
 ## Left bundle branch block
 
-![LBBB_gradient](LBBB_gradient.png)
+![LBBB_gradient](./examples/LBBB/LBBB_gradient.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method Gradient (Zurada et al.) for predicted class _left bundle branch block_ (prob. 98%).*
 
-![LBBB_gradient_x_input](LBBB_gradient_x_input.png)
+![LBBB_gradient_x_input](./examples/LBBB/LBBB_gradient_x_input.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method Gradient×Input (Shrikumar et al. 2017) for predicted class _left bundle branch block_ (prob. 98%).*
 
-![LBBB_gradient_x_sign](LBBB_gradient_x_sign.png)
+![LBBB_gradient_x_sign](./examples/LBBB/LBBB_gradient_x_sign.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method Gradient×SIGN (Gumpfer et al. 2023) for predicted class _left bundle branch block_ (prob. 98%).*
 
-![LBBB_lrp_alpha_1_beta_0](LBBB_lrp_alpha_1_beta_0.png)
+![LBBB_lrp_alpha_1_beta_0](./examples/LBBB/LBBB_lrp_alpha_1_beta_0.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method LRP-α₁β₀ (Bach et al. 2015) for predicted class _left bundle branch block_ (prob. 98%).*
 
-![LBBB_lrp_epsilon_0_5_std_x](LBBB_lrp_epsilon_0_5_std_x.png)
+![LBBB_lrp_epsilon_0_5_std_x](./examples/LBBB/LBBB_lrp_epsilon_0_5_std_x.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method LRP-ε with ε = 0.5 ⋅ σ(x) (Bach et al. 2015) for predicted class _left bundle branch block_ (prob. 98%).*
 
-![LBBB_lrpsign_epsilon_0_5_std_x](LBBB_lrpsign_epsilon_0_5_std_x.png)
+![LBBB_lrpsign_epsilon_0_5_std_x](./examples/LBBB/LBBB_lrpsign_epsilon_0_5_std_x.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method LRP-ε SIGN with ε = 0.5 ⋅ σ(x) and SIGN as input layer rule (Gumpfer et al. 2023) for predicted class _left bundle branch block_ (prob. 98%).*
 
-![LBBB_deep_shap](LBBB_deep_shap.png)
+![LBBB_deep_shap](./examples/LBBB/LBBB_deep_shap.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method DeepSHAP (Lundberg et al.) for predicted class _left bundle branch block_ (prob. 98%).*
 
-![LBBB_grad_shap](LBBB_grad_shap.png)
+![LBBB_grad_shap](./examples/LBBB/LBBB_grad_shap.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method GradSHAP (Lundberg et al.) for predicted class _left bundle branch block_ (prob. 98%).*
 
-![LBBB_grad_cam_timeseries](LBBB_grad_cam_timeseries.png)
+![LBBB_grad_cam_timeseries](./examples/LBBB/LBBB_grad_cam_timeseries.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method Grad-CAM [Selvaraju2020] for predicted class _left bundle branch block_ (prob. 98%).*
