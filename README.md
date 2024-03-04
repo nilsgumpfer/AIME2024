@@ -1,5 +1,18 @@
-# AIME2024
-Towards Trustworthy AI in Cardiology - Supplementary Material (AIME2024).
+# Towards Trustworthy AI in Cardiology (AIME2024)
+
+This repository contains supplementary material accompanying the paper entitled "Towards Trustworthy AI in Cardiology: A Comparative Analysis of Explainable AI Methods for Electrocardiogram Interpretation Towards Trustworthy AI in Cardiology" submitted to the *22nd International Conference on Artificial Intelligence in Medicine, Salt Lake City, Utah, USA, July 9-12 2024* (AIME2024).
+
+Citation:
+
+```bibtex
+ @article{GumpferAIME2024,
+ 	author = {Gumpfer, Nils and Michael Guckert and Jennifer Hannig},
+ 	title = {{Towards Trustworthy AI in Cardiology: A Comparative Analysis of Explainable AI Methods for ECG Interpretation}},
+ 	booktitle = {Artificial Intelligence in Medicine},
+ 	year = {2024},
+ 	publisher = {Springer Nature Switzerland AG}
+}
+```
 
 ## Data
 We used electrocardiograms from the PTB-XL database: https://physionet.org/content/ptb-xl/1.0.3/
