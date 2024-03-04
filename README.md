@@ -5,12 +5,12 @@ This repository contains supplementary material accompanying the paper entitled 
 Citation:
 
 ```bibtex
- @article{GumpferAIME2024,
- 	author = {Gumpfer, Nils and Michael Guckert and Jennifer Hannig},
- 	title = {{Towards Trustworthy AI in Cardiology: A Comparative Analysis of Explainable AI Methods for ECG Interpretation}},
- 	booktitle = {Artificial Intelligence in Medicine},
- 	year = {2024},
- 	publisher = {Springer Nature Switzerland AG}
+@article{GumpferAIME2024,
+ author = {Gumpfer, Nils and Michael Guckert and Jennifer Hannig},
+ title = {{Towards Trustworthy AI in Cardiology: A Comparative Analysis of Explainable AI Methods for ECG Interpretation}},
+ booktitle = {Artificial Intelligence in Medicine},
+ year = {2024},
+ publisher = {Springer Nature Switzerland AG}
 }
 ```
 
