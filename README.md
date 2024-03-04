@@ -1,8 +1,6 @@
 # AIME2024
 Towards Trustworthy AI in Cardiology - Supplementary Material (AIME2024)
 
-% --- AVB ---
-
 ## Atrioventricular block
 
 ![AVB_gradient](./examples/AVB/AVB_gradient.png)
@@ -32,8 +30,6 @@ Towards Trustworthy AI in Cardiology - Supplementary Material (AIME2024)
 ![AVB_grad_cam_timeseries](./examples/AVB/AVB_grad_cam_timeseries.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method Grad-CAM [Selvaraju2020] for predicted class _atrioventricular block_ (prob. 97%).*
 
-
-% --- ISCH ---
 
 ## Myocardial ischemia
 
@@ -65,8 +61,6 @@ Towards Trustworthy AI in Cardiology - Supplementary Material (AIME2024)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method Grad-CAM [Selvaraju2020] for predicted class _myocardial ischemia_ (prob. 69%).*
 
 
-% --- RBBB ---
-
 ## Right bundle branch block
 
 ![RBBB_gradient](./examples/RBBB/RBBB_gradient.png)
@@ -96,8 +90,6 @@ Towards Trustworthy AI in Cardiology - Supplementary Material (AIME2024)
 ![RBBB_grad_cam_timeseries](./examples/RBBB/RBBB_grad_cam_timeseries.png)
 *ECG subsample from PTB-XL (Wagner et al. 2020) with heatmap overlay (red) based on XAI method Grad-CAM [Selvaraju2020] for predicted class _right bundle branch block_ (prob. 99%).*
 
-
-% --- LBBB ---
 
 ## Left bundle branch block
 
