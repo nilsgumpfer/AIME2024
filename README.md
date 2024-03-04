@@ -1,5 +1,13 @@
 # AIME2024
-Towards Trustworthy AI in Cardiology - Supplementary Material (AIME2024)
+Towards Trustworthy AI in Cardiology - Supplementary Material (AIME2024).
+
+## Data
+We used electrocardiograms from the PTB-XL database: https://physionet.org/content/ptb-xl/1.0.3/
+
+## Code
+For the calculation of explanations, we used the ``` sign-xai ``` and ``` shap ``` python packages:
+- SIGN: https://github.com/nilsgumpfer/SIGN-XAI
+- SHAP: https://github.com/shap/shap
 
 ## Atrioventricular block
 
