@@ -11,7 +11,7 @@ Citation:
  booktitle = {Artificial Intelligence in Medicine},
  year = {2024},
  publisher = {Springer Nature Switzerland AG},
- note = {under review}
+ note = {accepted}
 }
 ```
 
