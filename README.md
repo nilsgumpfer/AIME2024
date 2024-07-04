@@ -10,9 +10,10 @@ Citation:
  title = {Towards Trustworthy {AI} in Cardiology: A Comparative Analysis of Explainable {AI} Methods for Electrocardiogram Interpretation},
  booktitle = {Artificial Intelligence in Medicine},
  year = {2024},
- editor = {Finkelstein, Josef and Moskovitch, Robert and Parimbelli, Enea},
+ editor = {Finkelstein, Joseph and Moskovitch, Robert and Parimbelli, Enea},
  note = {22nd International Conference on Artificial Intelligence in Medicine ({AIME}), Salt Lake City, Utah, USA, July 9-12, 2024. Lecture Notes in Computer Science, vol. 14845},
- publisher = {Springer Nature Switzerland AG}
+ publisher = {Springer Nature Switzerland AG},
+ doi = {10.1007/978-3-031-66535-6_36}
 }
 ```
 
