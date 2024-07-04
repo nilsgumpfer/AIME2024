@@ -6,12 +6,13 @@ Citation:
 
 ```bibtex
 @article{Gumpfer2024,
- author = {Gumpfer, Nils and Michael Guckert and Jennifer Hannig},
- title = {{Towards Trustworthy AI in Cardiology: A Comparative Analysis of Explainable AI Methods for ECG Interpretation}},
- booktitle = {Artificial Intelligence in Medicine},
- year = {2024},
- publisher = {Springer Nature Switzerland AG},
- note = {accepted}
+ author = {Gumpfer, Nils and Borislav Dinov and Samuel Sossalla and Michael Guckert and Jennifer Hannig},
+	title = {Towards Trustworthy {AI} in Cardiology: A Comparative Analysis of Explainable {AI} Methods for Electrocardiogram Interpretation},
+	booktitle = {Artificial Intelligence in Medicine},
+	year = {2024},
+ editor = {Finkelstein, Josef and Moskovitch, Robert and Parimbelli, Enea},
+	note = {22nd International Conference on Artificial Intelligence in Medicine ({AIME}), Salt Lake City, Utah, USA, July 9-12, 2024. Lecture Notes in Computer Science, vol. 14845},
+	publisher = {Springer Nature Switzerland AG}
 }
 ```
 
