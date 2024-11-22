@@ -1,27 +1,40 @@
 # Towards Trustworthy AI in Cardiology (AIME2024)
 
 This repository contains supplementary material accompanying the paper entitled "Towards Trustworthy AI in Cardiology: A Comparative Analysis of Explainable AI Methods for Electrocardiogram Interpretation Towards Trustworthy AI in Cardiology" submitted to the *22nd International Conference on Artificial Intelligence in Medicine, Salt Lake City, Utah, USA, July 9-12 2024* (AIME2024).
+https://doi.org/10.1007/978-3-031-66535-6_36
 
 Citation:
 
 ```bibtex
-@article{Gumpfer2024,
- author = {Gumpfer, Nils and Michael Guckert and Jennifer Hannig},
- title = {{Towards Trustworthy AI in Cardiology: A Comparative Analysis of Explainable AI Methods for ECG Interpretation}},
- booktitle = {Artificial Intelligence in Medicine},
- year = {2024},
- publisher = {Springer Nature Switzerland AG},
- note = {under review}
+@InProceedings{Gumpfer2024,
+  author    = {Gumpfer, Nils and Borislav Dinov and Samuel Sossalla and Michael Guckert and Jennifer Hannig},
+  booktitle = {22nd International Conference on Artificial Intelligence in Medicine, AIME 2024, Salt Lake City, UT, USA, July 9 - 12, 2024, Proceedings},
+  title     = {{Towards Trustworthy {AI} in Cardiology: A Comparative Analysis of Explainable {AI} Methods for Electrocardiogram Interpretation}},
+  chapter   = {36},
+  doi       = {10.1007/978-3-031-66535-6_36},
+  editor    = {Finkelstein, Josef and Moskovitch, Robert and Parimbelli, Enea},
+  pages     = {350--361},
+  publisher = {Springer Nature Switzerland AG},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {14845},
+  month     = {07},
+  year      = {2024},
 }
 ```
 
 ## Data
 We used electrocardiograms from the PTB-XL database: https://physionet.org/content/ptb-xl/1.0.3/
+To download the records used in the examples below and to setup the pip environment, run the ``` prepare.sh ``` script. For the experiments, we used Python 3.10.
+
+## Models
+The readily trained models are provided in ``` .h5 ``` format for evaluation purposes.
 
 ## Code
 For the calculation of explanations, we used the ``` sign-xai ``` and ``` shap ``` python packages:
 - SIGN: https://github.com/nilsgumpfer/SIGN-XAI
 - SHAP: https://github.com/shap/shap
+
+You can run the ``` example.py ``` script to generate the explanations yourself. 
 
 ## Atrioventricular block
 
