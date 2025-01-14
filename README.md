@@ -34,7 +34,7 @@ For the calculation of explanations, we used the ``` sign-xai ``` and ``` shap `
 - SIGN: https://github.com/nilsgumpfer/SIGN-XAI
 - SHAP: https://github.com/shap/shap
 
-You can run the ``` example.py ``` script to generate the explanations yourself. 
+You can run the ``` example_xai.py ``` script to generate the explanations yourself. 
 
 ## Atrioventricular block
 

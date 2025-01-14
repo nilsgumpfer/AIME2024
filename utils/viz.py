@@ -63,10 +63,6 @@ def plot_ecg(
     if bubble_size is None:
         bubble_size = 20 * line_width,
 
-    if explanation is None:
-        explanation = np.ones_like(ecg)
-        cmap = 'Greys'
-
     if lead_index is None:
         lead_index = ['I', 'II', 'III', 'aVR', 'aVL', 'aVF', 'V1', 'V2', 'V3', 'V4', 'V5', 'V6']
 
@@ -133,29 +129,32 @@ def plot_ecg(
                         ax.plot([x_offset, x_offset], [ecg[t_lead][0] + y_offset - 0.5, ecg[t_lead][0] + y_offset + 0.5], linewidth=line_width * display_factor, color=color_sep_line)
 
                 t_lead = lead_order[c * rows + i]
-
                 step = 1.0 / sampling_rate
 
                 if show_lead_name:
                     ax.text(x_offset + 0.07, y_offset - 0.5, lead_index[t_lead], fontsize=9 * display_factor, color=color_text)
 
-                colors_lead = explanation[t_lead]
-
-                plot_lead_bubbles(
-                    x=np.arange(0, round(len(ecg[t_lead]) * step, 3), step) + x_offset,
-                    y=ecg[t_lead] + y_offset,
-                    z=colors_lead,
-                    ax=ax,
-                    linewidth=line_width,
-                    bubble_size=bubble_size,
-                    color_line=color_line,
-                    clim_min=clim_min,
-                    clim_max=clim_max
-                )
+                if explanation is None:
+                    ax.plot(np.arange(0, round(len(ecg[t_lead]) * step, 3), step) + x_offset,
+                            ecg[t_lead] + y_offset,
+                            linewidth=line_width,
+                            color=color_line)
+                else:
+                    colors_lead = explanation[t_lead]
+                    plot_lead_bubbles(
+                        x=np.arange(0, round(len(ecg[t_lead]) * step, 3), step) + x_offset,
+                        y=ecg[t_lead] + y_offset,
+                        z=colors_lead,
+                        ax=ax,
+                        linewidth=line_width,
+                        bubble_size=bubble_size,
+                        color_line=color_line,
+                        clim_min=clim_min,
+                        clim_max=clim_max
+                    )
 
     # Add bottom label
-    ax.text(0.07, y_offset - 1.2, '25 mm/s, 10 mm/mV, recording length: {:.1f} s'.format(secs),
-            fontsize=9 * display_factor, color=color_text)
+    ax.text(0.07, y_offset - 1.2, '25 mm/s, 10 mm/mV, recording length: {:.1f} s'.format(secs), fontsize=9 * display_factor, color=color_text)
 
     # Add colorbar at bottom
     if show_colorbar:
