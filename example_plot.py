@@ -1,10 +1,6 @@
 import os
 
-from signxai.methods.wrappers import calculate_relevancemap
-
 from utils.data import load_and_preprocess_ecg
-from utils.explainability import normalize_ecg_relevancemap
-from utils.model import load_models_from_paths
 from utils.viz import plot_ecg
 
 
