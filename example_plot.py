@@ -22,7 +22,7 @@ def run(record_id, subsample_start=0, plot_dir='./examples/.ecgs', filetype='png
     os.makedirs(plot_dir, exist_ok=True)
     save_to = '{}/{}.{}'.format(plot_dir, record_id, filetype)
 
-    # Plot ECG with explanation
+    # Plot ECG
     plot_ecg(ecg=ecg,
              title=record_id,
              save_to=save_to)
